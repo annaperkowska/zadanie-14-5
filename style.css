@@ -1,0 +1,48 @@
+* {
+	box-sizing: border-box;
+	order: 1px solid black;
+}
+body {
+	margin: 0;
+	padding: 0;
+	background: url(https://images.pexels.com/photos/122458/pexels-photo-122458.jpeg?h=350&auto=compress&cs=tinysrgb);
+	font-family: 'Comfortaa', cursive;
+	font-weight: bold;
+	text-align: center;
+}
+form {
+	padding: 30px;
+	font-family: 'Comfortaa', cursive;
+	font-weight: bold;
+	display: inline-block;
+}
+form input, form button {
+	display: block;
+	padding: 10px;
+	margin: 10px;
+}
+form button {
+	width: 190px;
+	font-family: 'Comfortaa', cursive;
+	font-weight: bold;
+	font-size: 18px;
+}
+ul {
+	padding: 0;
+}
+.contactItem {
+	width: 70%;
+    margin: 20px auto;
+    background: rgba(0,0,0,0.5);
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+.contactItem p {
+	width: 280px;
+	margin: 10px auto;
+	background: #FFF;
+	padding: 10px;
+}
+img {
+	margin-top: 20px;
+}
